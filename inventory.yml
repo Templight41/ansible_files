@@ -1,0 +1,346 @@
+all:
+  hosts:
+    localhost:
+      ansible_connection: local
+    server1:
+      ansible_host: 172.1.4.176
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server2:
+      ansible_host: 172.1.4.199
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server3:
+      ansible_host: 172.1.4.145
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server4:
+      ansible_host: 172.1.4.112
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server5:
+      ansible_host: 172.1.4.120
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server6:
+      ansible_host: 172.1.4.145
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server7:
+      ansible_host: 172.1.4.125
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server8:
+      ansible_host: 172.1.4.138
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server9:
+      ansible_host: 172.1.4.163
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server10:
+      ansible_host: 172.1.4.143
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server11:
+      ansible_host: 172.1.4.150
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server12:
+      ansible_host: 172.1.4.164
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server13:
+      ansible_host: 172.1.4.184
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server14:
+      ansible_host: 172.1.4.123
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server15:
+      ansible_host: 172.1.4.136
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server16:
+      ansible_host: 172.1.4.137
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server17:
+      ansible_host: 172.1.4.170
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server18:
+      ansible_host: 172.1.4.146
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server19:
+      ansible_host: 172.1.4.167
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server20:
+      ansible_host: 172.1.4.162
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server21:
+      ansible_host: 172.1.4.165
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server22:
+      ansible_host: 172.1.4.148
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server23:
+      ansible_host: 172.1.4.139
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server24:
+      ansible_host: 172.1.4.156
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server25:
+      ansible_host: 172.1.4.157
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server26:
+      ansible_host: 172.1.4.160
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server27:
+      ansible_host: 172.1.4.195
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server28:
+      ansible_host: 172.1.4.140
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server29:
+      ansible_host: 172.1.4.176
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server30:
+      ansible_host: 172.1.4.200
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server31:
+      ansible_host: 172.1.4.178
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server32:
+      ansible_host: 172.1.4.118
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server33:
+      ansible_host: 172.1.4.171
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server34:
+      ansible_host: 172.1.4.173
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server35:
+      ansible_host: 172.1.4.149
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server36:
+      ansible_host: 172.1.4.153
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server37:
+      ansible_host: 172.1.4.116
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server38:
+      ansible_host: 172.1.4.133
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server39:
+      ansible_host: 172.1.4.180
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server40:
+      ansible_host: 172.1.4.132
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server41:
+      ansible_host: 172.1.4.169
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server42:
+      ansible_host: 172.1.4.155
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server43:
+      ansible_host: 172.1.4.185
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server44:
+      ansible_host: 172.1.4.151
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server45:
+      ansible_host: 172.1.4.182
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server46:
+      ansible_host: 172.1.4.181
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server47:
+      ansible_host: 172.1.4.193
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server48:
+      ansible_host: 172.1.4.197
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server49:
+      ansible_host: 172.1.4.196
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server50:
+      ansible_host: 172.1.4.111
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server51:
+      ansible_host: 172.1.4.114
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server52:
+      ansible_host: 172.1.4.115
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server53:
+      ansible_host: 172.1.4.152
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server54:
+      ansible_host: 172.1.4.172
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server55:
+      ansible_host: 172.1.4.119
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server56:
+      ansible_host: 172.1.4.141
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
+    server57:
+      ansible_host: 172.1.4.186
+      ansible_user: lab1
+      ansible_ssh_pass: lab1cse
+      ansible_become: true
+      ansible_become_pass: lab1cse
